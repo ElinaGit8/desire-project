@@ -8,7 +8,7 @@
     "start": "gulp start",
     "build": "gulp build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Elina Pakhomova",
   "license": "ISC",
