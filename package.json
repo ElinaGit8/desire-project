@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "First instalation of gulp_start.",
   "main": "main.js",
-  "homepage": "https://github.com/ElinaGit8/desire-project.git#readme",
+  "homepage": "https://github.com/ElinaGit8/desire-project.git",
   "scripts": {
     "start": "gulp start",
     "build": "gulp build",
