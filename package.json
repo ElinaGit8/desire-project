@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "First instalation of gulp_start.",
   "main": "main.js",
-  "homepage": "https://github.com/ElinaGit8/desire-project.git",
+  "homepage": "https://github.com/ElinaGit8/desire-project.git#readme",
   "scripts": {
     "start": "gulp start",
     "build": "gulp build",
@@ -13,7 +13,7 @@
   "author": "Elina Pakhomova",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com//ElinaGit8/desire-project/issues"
+    "url": "https://github.com//ElinaGit8/desire-project.git"
   },
   "devDependencies": {
     "@fancyapps/fancybox": "^3.5.7",
@@ -32,7 +32,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run test && npm run build"
+      "pre-commit": "pretty-quick --pattern=\"src/**/*.*\""
     }
   }
 }
